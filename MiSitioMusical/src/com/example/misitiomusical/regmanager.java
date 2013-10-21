@@ -18,7 +18,7 @@ public class regmanager extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.registromanager);
-		et1=(EditText)findViewById(R.id.et1);
+		et1=(EditText)findViewById(R.id.editTextUsuario);
 		
 		spinner1 = (Spinner) findViewById(R.id.spinner1);
         String []opciones={"Seleccionar Genero", "Alternativo","Bachata", "Baladas", "Electronica", "Hip Hop", "Rock", "Salsa"};        

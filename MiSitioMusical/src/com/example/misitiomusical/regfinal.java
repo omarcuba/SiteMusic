@@ -16,8 +16,8 @@ public class regfinal extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.registro2);
-		et1=(EditText)findViewById(R.id.et1);
-        et2=(EditText)findViewById(R.id.et2);
+		et1=(EditText)findViewById(R.id.editTextUsuario);
+        et2=(EditText)findViewById(R.id.editTextClave);
         et3=(EditText)findViewById(R.id.et3);
 		
 		Bundle bundle = getIntent().getExtras();
