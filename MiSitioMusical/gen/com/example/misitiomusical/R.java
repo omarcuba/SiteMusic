@@ -29,8 +29,9 @@ public final class R {
         public static final int atras1=0x7f020001;
         public static final int fondo2=0x7f020002;
         public static final int fondo4=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int siguiente1=0x7f020005;
+        public static final int fondot=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int siguiente1=0x7f020006;
     }
     public static final class id {
         public static final int TextView01=0x7f090017;
