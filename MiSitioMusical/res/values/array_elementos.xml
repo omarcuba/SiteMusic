@@ -8,4 +8,12 @@
         <item>Las tinieblas</item>
         <item>Jupiter</item>
     </string-array>
+     <string-array name="generos_array">
+        <item>Seleccionar género</item>
+        <item>Bachata</item>
+        <item>Rock</item>
+        <item>Punck Rock</item>
+        <item>Reggaeton</item>
+        <item>Salsa</item>
+    </string-array>
 </resources>

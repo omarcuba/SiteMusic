@@ -10,12 +10,15 @@ package com.example.misitiomusical;
 public final class R {
     public static final class array {
         public static final int albumes_array=0x7f040000;
+        public static final int generos_array=0x7f040001;
     }
     public static final class attr {
     }
     public static final class color {
         public static final int blanco=0x7f070000;
+        public static final int blue=0x7f070003;
         public static final int negro=0x7f070001;
+        public static final int yellow=0x7f070002;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -42,46 +45,50 @@ public final class R {
         public static final int reik=0x7f02000b;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f0a0023;
-        public static final int RelativeLayout1=0x7f0a001e;
-        public static final int TextView01=0x7f0a001d;
-        public static final int action_settings=0x7f0a0027;
-        public static final int autoCompleteTextView1=0x7f0a000e;
-        public static final int button1=0x7f0a000a;
+        public static final int AbsoluteLayout1=0x7f0a0009;
+        public static final int LinearLayout1=0x7f0a0027;
+        public static final int RelativeLayout1=0x7f0a0022;
+        public static final int SpinnerGeneroBuscar=0x7f0a0012;
+        public static final int TextView01=0x7f0a0011;
+        public static final int action_settings=0x7f0a002b;
+        public static final int autoCompleteTextView1=0x7f0a0015;
+        public static final int button1=0x7f0a000d;
         public static final int button2=0x7f0a0007;
         public static final int button3=0x7f0a0008;
         public static final int contenedor=0x7f0a0000;
-        public static final int editText1=0x7f0a000b;
+        public static final int editText1=0x7f0a000a;
         public static final int editTextClave=0x7f0a0005;
         public static final int editTextUsuario=0x7f0a0003;
-        public static final int et3=0x7f0a0017;
-        public static final int et4=0x7f0a0019;
+        public static final int et3=0x7f0a001c;
+        public static final int et4=0x7f0a001e;
         public static final int gestionarCanciones=0x7f0a0006;
-        public static final int imageButton1=0x7f0a001c;
-        public static final int imageView1=0x7f0a0024;
-        public static final int imageView2=0x7f0a0020;
-        public static final int imageView3=0x7f0a0021;
+        public static final int imageButton1=0x7f0a0021;
+        public static final int imageView1=0x7f0a0028;
+        public static final int imageView2=0x7f0a0024;
+        public static final int imageView3=0x7f0a0025;
         public static final int linearLayout1=0x7f0a0001;
-        public static final int ratingBarCalificacion=0x7f0a000f;
-        public static final int spinner1=0x7f0a0013;
-        public static final int spinner2=0x7f0a001b;
-        public static final int spinnerAlbumes=0x7f0a0011;
-        public static final int tab1=0x7f0a001f;
-        public static final int tab2=0x7f0a0022;
-        public static final int tab3=0x7f0a0026;
-        public static final int textView1=0x7f0a0009;
+        public static final int ratingBarCalificacion=0x7f0a0018;
+        public static final int spinner1=0x7f0a0019;
+        public static final int spinner2=0x7f0a0020;
+        public static final int spinnerAlbumes=0x7f0a0014;
+        public static final int spinnerAlbumesAgrega=0x7f0a000e;
+        public static final int spinnerGeneroMusica=0x7f0a000f;
+        public static final int tab1=0x7f0a0023;
+        public static final int tab2=0x7f0a0026;
+        public static final int tab3=0x7f0a002a;
+        public static final int textView1=0x7f0a000b;
         public static final int textView2=0x7f0a0004;
-        public static final int textView3=0x7f0a0014;
-        public static final int textView4=0x7f0a0015;
-        public static final int textView5=0x7f0a0016;
-        public static final int textView6=0x7f0a0018;
-        public static final int textView7=0x7f0a001a;
-        public static final int textViewAlbum=0x7f0a0012;
-        public static final int textViewCalificacion=0x7f0a0010;
-        public static final int textViewCancion=0x7f0a000c;
-        public static final int textViewFecha=0x7f0a000d;
+        public static final int textView3=0x7f0a000c;
+        public static final int textView4=0x7f0a001a;
+        public static final int textView5=0x7f0a001b;
+        public static final int textView6=0x7f0a001d;
+        public static final int textView7=0x7f0a001f;
+        public static final int textViewAlbum=0x7f0a0013;
+        public static final int textViewCalificacion=0x7f0a0017;
+        public static final int textViewCancion=0x7f0a0016;
+        public static final int textViewFecha=0x7f0a0010;
         public static final int textViewGestionarCanciones=0x7f0a0002;
-        public static final int view1=0x7f0a0025;
+        public static final int view1=0x7f0a0029;
     }
     public static final class layout {
         public static final int activity_gestionar_canciones=0x7f030000;

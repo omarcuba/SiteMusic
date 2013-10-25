@@ -25,7 +25,16 @@ public class FragmentoTabBuscarCancion extends Fragment{
     	adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     	// Apply the adapter to the spinner
     	spinnerAlbumes.setAdapter(adapter);
-    	
+    	Spinner spinnerGeneros = (Spinner) vistaBusqueda.findViewById(R.id.SpinnerGeneroBuscar);
+    	// Create an ArrayAdapter using the string array and a default spinner layout
+    	//this.getActivity.getApplicationContext obtiene el contexto de otro sitio
+    	ArrayAdapter<CharSequence> adapterGeneros = ArrayAdapter.createFromResource(this.getActivity().getApplicationContext(),
+    	        R.array.generos_array, android.R.layout.simple_spinner_item);
+    	// Specify the layout to use when the list of choices appears
+
+    	adapterGeneros.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    	// Apply the adapter to the spinner
+    	spinnerGeneros.setAdapter(adapterGeneros);
         return vistaBusqueda;    }
 
 }

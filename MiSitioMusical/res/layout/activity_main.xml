@@ -29,6 +29,7 @@
             android:id="@+id/editTextUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/blue"
             android:hint="@string/editTextUsuario"
             android:ems="10" >
 
@@ -51,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/blue"
             android:hint="@string/editTextClave"
             android:inputType="textPassword" />
 

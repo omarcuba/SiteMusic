@@ -1,65 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/textViewCancion"
+    <EditText
+        android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewFecha"
-        android:layout_below="@+id/textViewFecha"
-        android:layout_marginTop="24dp"
-        android:text="Cancion: " />
-
-    <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textViewCancion"
-        android:layout_alignBottom="@+id/textViewCancion"
-        android:layout_alignParentRight="true"
+        android:layout_x="88dp"
+        android:layout_y="72dp"
         android:ems="10"
-        android:hint="Ingresar cancion" >
-
-        <requestFocus />
-    </AutoCompleteTextView>
+        android:inputType="date" />
 
     <TextView
         android:id="@+id/textViewFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="47dp"
-        android:text="Fecha: " />
+        android:layout_x="11dp"
+        android:layout_y="87dp"
+        android:text="Fecha: "
+        android:textSize="15dp" />
 
-    <Button
-        android:id="@+id/button1"
+    <TextView
+        android:id="@+id/TextView01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ratingBarCalificacion"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:text="Buscar" />
-
-    <RatingBar
-        android:id="@+id/ratingBarCalificacion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewCalificacion"
-        android:layout_below="@+id/textViewCalificacion"
-        android:layout_marginTop="19dp" />
+        android:layout_x="12dp"
+        android:layout_y="37dp"
+        android:text="Genero: "
+        android:textSize="15dp" />
 
     <Spinner
-        android:id="@+id/spinnerAlbumes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/autoCompleteTextView1"
-        android:layout_marginTop="30dp"
-        android:layout_toRightOf="@+id/textViewCalificacion"
+        android:id="@+id/SpinnerGeneroBuscar"
+        android:layout_width="202dp"
+        android:layout_height="29dp"
+        android:layout_x="94dp"
+        android:layout_y="34dp"
         android:background="@color/negro"
         android:popupBackground="@color/negro"
         android:textColor="@color/negro" />
@@ -68,17 +45,65 @@
         android:id="@+id/textViewAlbum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/spinnerAlbumes"
-        android:layout_alignLeft="@+id/textViewCalificacion"
-        android:layout_marginBottom="22dp"
-        android:text="Album: " />
+        android:layout_x="16dp"
+        android:layout_y="140dp"
+        android:text="Album: "
+        android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAlbumes"
+        android:layout_width="202dp"
+        android:layout_height="29dp"
+        android:layout_x="94dp"
+        android:layout_y="136dp"
+        android:background="@color/negro"
+        android:popupBackground="@color/negro"
+        android:textColor="@color/negro" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="186dp"
+        android:ems="10"
+        android:hint="Ingresar cancion"
+        android:textColorHint="@color/blue" />
+
+    <TextView
+        android:id="@+id/textViewCancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="197dp"
+        android:text="Cancion: "
+        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/textViewCalificacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewCancion"
-        android:layout_centerVertical="true"
-        android:text="Calificacion: " />
+        android:layout_x="13dp"
+        android:layout_y="263dp"
+        android:text="Calificacion: "
+        android:textSize="15dp" />
 
-</RelativeLayout>
+    <RatingBar
+        android:id="@+id/ratingBarCalificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="236dp"
+        android:maxHeight="10dp"
+        android:minHeight="50dip"
+        android:numStars="4" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="313dp"
+        android:text="Buscar" />
+
+</AbsoluteLayout>

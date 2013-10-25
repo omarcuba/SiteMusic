@@ -9,7 +9,9 @@
 
     <color name="blanco">#ffffff</color>
     <color name="negro">#000000</color>
-
+	<color name="yellow">#E5F415</color>
+	<color name="blue">#2015F4</color>
+	
     <string name="title_activity_menu_manager">MainActivity</string>
     <string name="title_activity_gestionar_canciones">GestionarCanciones</string>
 
