@@ -138,15 +138,8 @@
             android:id="@+id/imageButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="lanzarorigen"
-            android:src="@drawable/atras1" />
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:onClick="lanzarmanager"
-            android:src="@drawable/siguiente1" />
+            android:src="@drawable/flechan" />
 
     </LinearLayout>
 

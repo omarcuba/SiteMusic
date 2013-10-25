@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.misitiomusical.reg1" >
+        <activity android:name="reproducirm"></activity><activity android:name="com.example.misitiomusical.reg1" >
         </activity>
         <activity android:name="com.example.misitiomusical.regmanager" >
         </activity>
@@ -40,6 +40,7 @@
             android:name="com.example.misitiomusical.GestionarCanciones"
             android:label="@string/title_activity_gestionar_canciones" >
         </activity>
+        
     </application>
 
 </manifest>

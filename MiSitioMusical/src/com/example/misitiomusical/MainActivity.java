@@ -34,9 +34,17 @@ public class MainActivity extends Activity {
     	if(usuario.equals("manager")&&clave.equals("manager")){
     		intent=new Intent(this,MenuManagerActivity.class);
     		startActivity(intent);
+    	}else if(usuario.equals("publico")&&clave.equals("publico")){
+    		intent=new Intent(this,reproducirm.class);
+    		startActivity(intent);
     	}
     	
     }
+    
+    
+    
+    
+    
     public void lanzar(View view) {
         Intent i = new Intent(this, reg1.class );
         startActivity(i);
