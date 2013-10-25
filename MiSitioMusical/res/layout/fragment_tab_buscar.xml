@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewCancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewFecha"
+        android:layout_below="@+id/textViewFecha"
+        android:layout_marginTop="24dp"
+        android:text="Cancion: " />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewCancion"
+        android:layout_alignBottom="@+id/textViewCancion"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="Ingresar cancion" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="47dp"
+        android:text="Fecha: " />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBarCalificacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Buscar" />
+
+    <RatingBar
+        android:id="@+id/ratingBarCalificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCalificacion"
+        android:layout_below="@+id/textViewCalificacion"
+        android:layout_marginTop="19dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAlbumes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autoCompleteTextView1"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/textViewCalificacion"
+        android:background="@color/negro"
+        android:popupBackground="@color/negro"
+        android:textColor="@color/negro" />
+
+    <TextView
+        android:id="@+id/textViewAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinnerAlbumes"
+        android:layout_alignLeft="@+id/textViewCalificacion"
+        android:layout_marginBottom="22dp"
+        android:text="Album: " />
+
+    <TextView
+        android:id="@+id/textViewCalificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCancion"
+        android:layout_centerVertical="true"
+        android:text="Calificacion: " />
+
+</RelativeLayout>

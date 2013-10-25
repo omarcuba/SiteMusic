@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="albumes_array">
+        <item>Seleccionar álbum</item>
+        <item>Corta Venas</item>
+        <item>Flores rojas</item>
+        <item>Amo al mundo</item>
+        <item>Las tinieblas</item>
+        <item>Jupiter</item>
+    </string-array>
+</resources>

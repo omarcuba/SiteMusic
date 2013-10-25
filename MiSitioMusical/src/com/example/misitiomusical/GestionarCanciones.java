@@ -1,8 +1,8 @@
 package com.example.misitiomusical;
 
 import com.example.misitiomusical.Listeners.MiTabListener;
-import com.example.misitiomusical.fragmentoTabs.FragmentoTab1;
-import com.example.misitiomusical.fragmentoTabs.FragmentoTab2;
+import com.example.misitiomusical.fragmentoTabs.FragmentoTabAgregarCancion;
+import com.example.misitiomusical.fragmentoTabs.FragmentoTabBuscarCancion;
 
 import android.os.Bundle;
 import android.app.ActionBar;
@@ -28,11 +28,11 @@ public class GestionarCanciones extends Activity {
 	    //Creamos las pestañas
 	    ActionBar.Tab tab1 =abar.newTab().setText("Registrar");
 	 
-	    ActionBar.Tab tab2 =abar.newTab().setText("Modificar");
+	    ActionBar.Tab tab2 =abar.newTab().setText("Buscar");
 	 
 	    //Creamos los fragments de cada pestaña
-	        Fragment tab1frag = new FragmentoTab1();
-	        Fragment tab2frag = new FragmentoTab2();
+	        Fragment tab1frag = new FragmentoTabAgregarCancion();
+	        Fragment tab2frag = new FragmentoTabBuscarCancion();
 	 
 	        //Asociamos los listener a las pestañas
 	        tab1.setTabListener(new MiTabListener(tab1frag));
